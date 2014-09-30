@@ -82,6 +82,7 @@
 
 	 	.intro-system-carousel h3{ font-size: 21px; }
 		.intro-system-carousel ul{ font-size: 16px; }
+		.intro-system-carousel ul li{ margin-bottom: 10px;  }
 		.intro-system-carousel p{ font-size: 14px;}
 
   }
@@ -92,6 +93,7 @@
 
 	 	.intro-system-carousel h3{ font-size: 24px; }
 		.intro-system-carousel ul{ font-size: 14px; }
+		.intro-system-carousel ul li{ margin-bottom: 10px;  }
   	
 }
 
