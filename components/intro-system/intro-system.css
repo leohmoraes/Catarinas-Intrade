@@ -1,7 +1,7 @@
 /*class helpers*/
 
-		.intro-system-component > *,
-		.intro-system-component > *:hover,
+		.intro-system-component *,
+		.intro-system-component *:hover,
 		.transition {  transition: all 0.5s ease 0s;   -ms-transition: all 0.5s ease 0s;   -webkit-transition: all 0.5s ease 0s;   -moz-transition: all 0.5s ease 0s;   -o-transition: all 0.5s ease 0s; }
 
 		.intro-system-text-align-center{text-align: center;}
