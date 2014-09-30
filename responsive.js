@@ -1,4 +1,4 @@
-var defaultURL = 'file:///Volumes/documentos/GitHub/Catarinas-Intrade/page-slide.html'; //<---- CHANGE TO YOUR WEBSITE URL
+var defaultURL = 'http://felipegenuino.github.io/Catarinas-Intrade/page-slide.html'; //<---- CHANGE TO YOUR WEBSITE URL
 
 //show loading graphic
 function showLoader(id) {
