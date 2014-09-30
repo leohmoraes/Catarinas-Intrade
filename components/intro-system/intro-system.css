@@ -1,4 +1,9 @@
 /*class helpers*/
+
+		.intro-system-component,
+		.intro-system-component:hover,
+		.transition {  transition: all 0.5s ease 0s;   -ms-transition: all 0.5s ease 0s;   -webkit-transition: all 0.5s ease 0s;   -moz-transition: all 0.5s ease 0s;   -o-transition: all 0.5s ease 0s; }
+
 		.intro-system-text-align-center{text-align: center;}
 		.intro-system-text-align-left{text-align: left;}
 		.intro-system-text-align-right{text-align: right;}
@@ -68,29 +73,31 @@
 
 /* Portrait tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
-	._intro-system-title h1{background:yellow}
+		._intro-system-title h1{background:yellow}
 }
 
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
-	._intro-system-title h1{background:   green}
+		._intro-system-title h1{background:   green}
 
- 	.intro-system-carousel h3{ font-size: 21px; }
-	.intro-system-carousel ul{ font-size: 16px; }
+	 	.intro-system-carousel h3{ font-size: 21px; }
+		.intro-system-carousel ul{ font-size: 16px; }
+		.intro-system-carousel p{ font-size: 14px;}
+
   }
 
 /* Landscape phones and portrait tablets (min-width: @screen-sm-min) and (max-width: @screen-sm-max) */
 @media (max-width: 767px) {
-	._intro-system-title h1{background:  blue}
+		._intro-system-title h1{background:  blue}
 
- 	.intro-system-carousel h3{ font-size: 24px; }
-	.intro-system-carousel ul{ font-size: 14px; }
+	 	.intro-system-carousel h3{ font-size: 24px; }
+		.intro-system-carousel ul{ font-size: 14px; }
   	
 }
 
 /* Landscape phones and smaller  (max-width: @screen-xs-max) */
 @media (max-width: 480px) {
-	._intro-system-title h1{background: red}
+		._intro-system-title h1{background: red}
 
 
 }
