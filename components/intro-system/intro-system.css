@@ -1,202 +1,100 @@
 /*class helpers*/
-	.intro-system-text-align-center{text-align: center;}
-	.intro-system-text-align-left{text-align: left;}
-	.intro-system-text-align-right{text-align: right;}
+		.intro-system-text-align-center{text-align: center;}
+		.intro-system-text-align-left{text-align: left;}
+		.intro-system-text-align-right{text-align: right;}
+
+		.button-green{ padding:  10px; background-color: #9abf7f; border: 0; font-family: 'Asap', sans-serif; font-size: 18px; color: #fff; 	text-transform: uppercase; width: 100%; margin-top: 10px; }
+		.button-green:hover{ opacity: 0.8}
+		.button-green:active{ opacity: 0.6}
+
+		.intro-system-component{ }
+		.nav-pills-intro-system-carousel{ z-index: 2000;  position: relative;  margin-bottom: 0; }
+		.intro-system-title{ font-size: 36px;  padding: 0 20px}
+		.intro-system-carousel{ background: #eee url("background.jpg"); background-repeat: no-repeat; background-position: center center; background-size: cover;  }
+		.intro-system-carousel p,
+		.intro-system-carousel ul,
+		.intro-system-carousel h2, 
+		.intro-system-carousel h3, 
+		.intro-system-carousel h4{ color: #fff}
+
+		.intro-system-carousel p{ font-size: 14px; margin-bottom: 30px; }
+		.intro-system-carousel ul{ font-size: 20px; list-style-image: url("bullets.png"); margin-bottom: 30px;}
+		.intro-system-carousel ul li{  line-height: 20px; margin-bottom: 10px;  }
+		.intro-system-carousel h2{font-size: 28px; text-transform: inherit; font-weight: bold; margin: 0 0 30px 0; }
+		.intro-system-carousel h3{ font-size: 26px; font-family: 'Asap', sans-serif;}
+
+		.intro-system-carousel p{ font-size: 16px; margin-bottom: 30px; }
+		.intro-system-carousel ul{ font-size: 20px; list-style-image: url("bullets.png"); margin-bottom: 30px;}
+		.intro-system-carousel ul li{ margin-bottom: 15px; line-height: 20px; }
+		.intro-system-carousel h2{font-size: 36px; text-transform: inherit; font-weight: bold; margin: 0 0 30px 0; }
+		.intro-system-carousel h3{ font-size: 26px; font-family: 'Asap', sans-serif;}
+		.intro-system-carousel-inner{ }
+		.intro-system-carousel-inner .item{   padding:40px 20px;  border-top: 3px solid #111; }
+		.intro-system-slide-content{ min-height: 450px; display: inline-block; }
+		.intro-system-slide-nav{ float: right; }
+		.intro-system-slide-nav .bt-pular-intro{ opacity: 0.5; width: 200px; background: none; border: 1px solid transparent; font-family: 'Asap', sans-serif; font-size: 14px; color: #fff; text-transform: uppercase;}
+		.intro-system-slide-nav .bt-pular-intro:hover{ opacity: 1; border: 1px solid #fff; opacity: 0.9}
+		.intro-system-slide-nav .bt-pular-intro:active{ opacity: 0.8}
+		.intro-system-slide-nav  .bt-pular-intro > span { height: 34px; display: inline-block; vertical-align: top; padding-top: 7px;}
+		.intro-system-slide-nav .icon-pular-intro  { margin-right: 6px; background-image: url('icon-pular-intro.png'); 	width: 24px; height: 34px; background-repeat: no-repeat; background-position: -1px 5px;}
+		.bloco-teste-potencial-mercadologico{ background: #393c47; padding: 10px 30px 30px; margin-bottom: 30px;}
+		.bloco-teste-potencial-mercadologico h3{  border-bottom: 1px dashed #666; padding-bottom: 20px; }
+		.bloco-teste-potencial-mercadologico-form-group{ margin-bottom: 20px;}
+		.bloco-teste-potencial-mercadologico label{ display: block; font-size: 16px; color: #fff;}
+		.bloco-teste-potencial-mercadologico input{ display: block; width: 100%; padding: 10px; font-size: 18px; color: #444; padding-left: 50px;}
+		.icon-checklist { background-image: url("icon10.png"); background-repeat: no-repeat; padding: 10px 20px; background-position: 10px center; }
+		
+		.bloco-teste-potencial-mercadologico .icon-delivery { background-image: url("icon-delivery.png"); background-repeat: no-repeat; background-position: 10px center; 	}
+		.bloco-teste-potencial-mercadologico .icon-saindo-de { background-image: url("icon-saindo-de.png"); background-repeat: no-repeat; background-position: 10px center;}
+		.bloco-teste-potencial-mercadologico .icon-indo-para { background-image: url("icon-indo-para.png"); background-repeat: no-repeat; 	background-position: 10px center; }
 
 
 
-.intro-system-component{ }
 
 
-.nav-pills-intro-system-carousel{
-	z-index: 2000; 
-	position: relative; 
-	margin-bottom: 0;
+
+
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+		._intro-system-title h1{background:gray}
+
+		.intro-system-carousel p{ font-size: 16px;}
+		.intro-system-carousel ul{ font-size: 20px;  }
+		.intro-system-carousel ul li{ margin-bottom: 15px;  }
+		.intro-system-carousel h2{ font-size: 36px;  }
+		.intro-system-carousel h3{ font-size: 26px;}
 }
 
-.intro-system-title{
- 	font-size: 36px; 
-	padding: 0 20px
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+	._intro-system-title h1{background:yellow}
 }
 
-.intro-system-carousel{
-	background: #eee url("background.jpg");
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
- }
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+	._intro-system-title h1{background:   green}
 
-.intro-system-carousel p,
-.intro-system-carousel ul,
-.intro-system-carousel h2, 
-.intro-system-carousel h3, 
-.intro-system-carousel h4{ color: #fff}
-
-
-.intro-system-carousel p{ font-size: 16px; margin-bottom: 30px; }
-.intro-system-carousel ul{ font-size: 20px; list-style-image: url("bullets.png"); margin-bottom: 30px;}
-.intro-system-carousel ul li{
-	margin-bottom: 15px;
-	line-height: 20px;
-}
-
-.intro-system-carousel h2{ 
-	font-size: 36px;
-	text-transform: inherit;
-	font-weight: bold;
-	margin: 0 0 30px 0;
-}
-.intro-system-carousel h3{ font-size: 26px; font-family: 'Asap', sans-serif;}
-
-
-.intro-system-carousel-inner{ }
-.intro-system-carousel-inner .item{  
-	padding: 20px; 
-	border-top: 3px solid #111;
-
-	
+ 	.intro-system-carousel h3{ font-size: 21px; }
+	.intro-system-carousel ul{ font-size: 16px; }
   }
 
+/* Landscape phones and portrait tablets (min-width: @screen-sm-min) and (max-width: @screen-sm-max) */
+@media (max-width: 767px) {
+	._intro-system-title h1{background:  blue}
 
- .intro-system-slide0{}
- .intro-system-slide1{}
- .intro-system-slide2{}
- .intro-system-slide3{}
- .intro-system-slide4{}
-
-
- .intro-system-slide-content{
- 	min-height: 450px;
- 	/*padding: 20px;*/
- 	/*border: 1px solid blue;*/
- 	display: inline-block;
- }
-
- .intro-system-slide-nav{
- 	float: right;
- 	
- }
-
-
-
-
-
-
-
-
-
-.intro-system-slide-nav .bt-pular-intro{
-	width: 200px;
-	background: none;
-	border: 1px solid transparent;
-	font-family: 'Asap', sans-serif;
-	font-size: 14px;
-	color: #fff;
-	text-transform: uppercase;
-	}
-
-	.intro-system-slide-nav .bt-pular-intro:hover{ border: 1px solid #fff; opacity: 0.9}
-	.intro-system-slide-nav .bt-pular-intro:active{ opacity: 0.8}
-
-.intro-system-slide-nav  .bt-pular-intro > span {
-	height: 34px;
-	display: inline-block;
-	vertical-align: top;
-	padding-top: 7px;
-}
- 
- 
-.intro-system-slide-nav .icon-pular-intro  {
-	margin-right: 6px;
-	background-image: url('icon-pular-intro.png');
-	width: 24px;
- 	height: 34px;
-	background-repeat: no-repeat;
-	background-position: -1px 5px;
-	}
-
-
-
-
-
-
-
-
-.bloco-teste-potencial-mercadologico{
-	background: #393c47;
-	padding: 10px 30px 30px;
-	margin-bottom: 30px;
-}
-.bloco-teste-potencial-mercadologico h3{ 
-	border-bottom: 1px dashed #666;
-	padding-bottom: 20px;
+ 	.intro-system-carousel h3{ font-size: 24px; }
+	.intro-system-carousel ul{ font-size: 14px; }
+  	
 }
 
-.bloco-teste-potencial-mercadologico-form-group{
-	margin-bottom: 20px;
+/* Landscape phones and smaller  (max-width: @screen-xs-max) */
+@media (max-width: 480px) {
+	._intro-system-title h1{background: red}
+
+
 }
-
-.bloco-teste-potencial-mercadologico label{
-	display: block;
-	font-size: 16px;
-	color: #fff;
-	}
-.bloco-teste-potencial-mercadologico input{
-	display: block;
-	width: 100%;
-	padding: 10px;
-	font-size: 18px;
-	color: #444;
-	padding-left: 50px;}
-
-
-
-
-
-.icon-checklist {
-background-image: url("icon10.png");
-background-repeat: no-repeat;
-padding: 10px 20px;
-background-position: 10px center;
-}
-
-
-.button-green{
-	padding:  10px;
-	background-color: #9abf7f;
-	border: 0;
-	font-family: 'Asap', sans-serif;
-	font-size: 18px;
-	color: #fff;
-	text-transform: uppercase;
-	width: 100%;
-	margin-top: 10px;
- }
-
- .button-green:hover{ opacity: 0.8}
- .button-green:active{ opacity: 0.6}
-
-
-
 
 
  
-
-.bloco-teste-potencial-mercadologico .icon-delivery {
-	background-image: url("icon-delivery.png");
-	background-repeat: no-repeat;
-	background-position: 10px center;
-	}
-
-.bloco-teste-potencial-mercadologico .icon-saindo-de {
-	background-image: url("icon-saindo-de.png");
-	background-repeat: no-repeat;
-	background-position: 10px center;
-	}
-
-.bloco-teste-potencial-mercadologico .icon-indo-para {
-	background-image: url("icon-indo-para.png");
-	background-repeat: no-repeat;
-	background-position: 10px center;
-	}
  
