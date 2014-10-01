@@ -1,6 +1,16 @@
-  $('.intro-system-carousel ').carousel({
-    interval: false
-  })
+/*
+  Nome do componente: Introdução ao sistema
+  Agency: Catarinas design de interação, http://catarinasdesign.com.br/;
+  Front-end: Felipe Genuino, design@felipegenuino.com, http://felipegenuino.com ;
+  Date: 2014/SET
+*/
+
+
+	//Inicia o carrousel
+  		$('.intro-system-carousel ').carousel({
+    		// interval: false desativa o autoplay
+    		interval: false
+ 		 })
 
 
 
@@ -9,7 +19,7 @@
 /* 'CONTROLES DAS ANIMAÇÕES 
 ========================================================================================== */
 
-//Slides inicial
+//Slide inicial
 
 		 	$('.intro-system-slide0 .animation-1').addClass(' animated fadeInUpBig'); 
 			$('.intro-system-slide0 .animation-2').addClass('delay-1s animated fadeInUp'); 

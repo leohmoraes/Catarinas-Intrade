@@ -1,4 +1,9 @@
-/*class helpers*/
+/*
+  Nome do componente: Introdução ao sistema
+  Agency: Catarinas design de interação, http://catarinasdesign.com.br/;
+  Front-end: Felipe Genuino, design@felipegenuino.com, http://felipegenuino.com ;
+  Date: 2014/SET
+*/
 
 		.intro-system-component *,
 		.intro-system-component *:hover,
@@ -37,11 +42,13 @@
 		.intro-system-carousel-inner .item{   padding:40px 20px;  border-top: 3px solid #111; }
 		.intro-system-slide-content{ min-height: 450px; display: inline-block; }
 		.intro-system-slide-nav{ float: right; }
-		.intro-system-slide-nav .bt-pular-intro{ opacity: 0.5; width: 200px; background: none; border: 1px solid transparent; font-family: 'Asap', sans-serif; font-size: 14px; color: #fff; text-transform: uppercase;}
+
+		.intro-system-slide-nav .bt-pular-intro{ display: inline-block; text-align: center; opacity: 0.5; width: 200px; background: none; border: 1px solid transparent; font-family: 'Asap', sans-serif; font-size: 14px; color: #fff; text-transform: uppercase;}
 		.intro-system-slide-nav .bt-pular-intro:hover{ opacity: 1; border: 1px solid #fff; opacity: 0.9}
 		.intro-system-slide-nav .bt-pular-intro:active{ opacity: 0.8}
 		.intro-system-slide-nav  .bt-pular-intro > span { height: 34px; display: inline-block; vertical-align: top; padding-top: 7px;}
 		.intro-system-slide-nav .icon-pular-intro  { margin-right: 6px; background-image: url('icon-pular-intro.png'); 	width: 24px; height: 34px; background-repeat: no-repeat; background-position: -1px 5px;}
+		
 		.bloco-teste-potencial-mercadologico{ background: #393c47; padding: 10px 30px 30px; margin-bottom: 30px;}
 		.bloco-teste-potencial-mercadologico h3{  border-bottom: 1px dashed #666; padding-bottom: 20px; }
 		.bloco-teste-potencial-mercadologico-form-group{ margin-bottom: 20px;}
@@ -53,56 +60,39 @@
 		.bloco-teste-potencial-mercadologico .icon-saindo-de { background-image: url("icon-saindo-de.png"); background-repeat: no-repeat; background-position: 10px center;}
 		.bloco-teste-potencial-mercadologico .icon-indo-para { background-image: url("icon-indo-para.png"); background-repeat: no-repeat; 	background-position: 10px center; }
 
-
-
-
-
-
+ 
 
 
 /* Large desktops and laptops */
-@media (min-width: 1200px) {
-		._intro-system-title h1{background:gray}
-
+@media (min-width: 1200px) { 
 		.intro-system-carousel p{ font-size: 16px;}
 		.intro-system-carousel ul{ font-size: 20px;  }
 		.intro-system-carousel ul li{ margin-bottom: 15px;  }
 		.intro-system-carousel h2{ font-size: 36px;  }
 		.intro-system-carousel h3{ font-size: 26px;}
+		.intro-system-carousel-inner .item{min-height: 640px;}
 }
 
 /* Portrait tablets and medium desktops */
-@media (min-width: 992px) and (max-width: 1199px) {
-		._intro-system-title h1{background:yellow}
-}
+@media (min-width: 992px) and (max-width: 1199px) {}
 
 /* Portrait tablets and small desktops */
-@media (min-width: 768px) and (max-width: 991px) {
-		._intro-system-title h1{background:   green}
-
+@media (min-width: 768px) and (max-width: 991px) { 
 	 	.intro-system-carousel h3{ font-size: 21px; }
 		.intro-system-carousel ul{ font-size: 16px; }
 		.intro-system-carousel ul li{ margin-bottom: 10px;  }
 		.intro-system-carousel p{ font-size: 14px;}
-
   }
 
 /* Landscape phones and portrait tablets (min-width: @screen-sm-min) and (max-width: @screen-sm-max) */
 @media (max-width: 767px) {
-		._intro-system-title h1{background:  blue}
-
 	 	.intro-system-carousel h3{ font-size: 24px; }
 		.intro-system-carousel ul{ font-size: 14px; }
 		.intro-system-carousel ul li{ margin-bottom: 10px;  }
-  	
 }
 
 /* Landscape phones and smaller  (max-width: @screen-xs-max) */
-@media (max-width: 480px) {
-		._intro-system-title h1{background: red}
-
-
-}
+@media (max-width: 480px) { }
 
 
  
